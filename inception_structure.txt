@@ -1,0 +1,15 @@
+inception/
+ ├── Makefile 
+ ├── README.md 
+ └── srcs/
+  ├── docker-compose.yml
+  └── requirements/
+   ├── mariadb/
+    ├── Dockerfile 
+    └── tools/setup.sh
+   ├── nginx/
+    ├── Dockerfile 
+    └── conf/nginx.conf
+   └── wordpress/ 
+    ├── Dockerfile 
+    └── tools/setup.sh

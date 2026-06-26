@@ -19,7 +19,7 @@ ALTER USER 'root'@'localhost' IDENTIFIED BY ${MYSQL_ROOT_PASSWORD}
 FLUSH PRIVELEGES
 
 EOF
-
+# 
 mysqladmin -u root -p${MYSQL_ROOT_PASSWORD} shutdown
 
 exec mysqld_safe

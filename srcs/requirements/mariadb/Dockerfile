@@ -8,4 +8,4 @@ RUN chmod +x /setup.sh
 
 EXPOSE 3306
 
-ENTRYPOINT ["/setup.sh"]
+ENTRYPOINT [ "/setup.sh" ]
